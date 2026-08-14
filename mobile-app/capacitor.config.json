@@ -1,0 +1,10 @@
+{
+  "appId": "com.myshop.app",
+  "appName": "MyShop",
+  "webDir": "www",
+  "server": {
+    "url": "https://likey-shop.netlify.app",
+    "cleartext": true
+  }
+}
+
