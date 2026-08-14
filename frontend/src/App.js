@@ -12,6 +12,7 @@ import Checkout from './pages/Checkout';
 import MyOrders from './pages/MyOrders';
 import AdminDashboard from './pages/AdminDashboard';
 import AddProduct from './pages/AddProduct';
+import ManageProducts from './pages/ManageProducts';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/my-orders" element={<MyOrders />} />
             <Route path="/admin" element={<AdminDashboard />} />
             <Route path="/add-product" element={<AddProduct />} />
+            <Route path="/manage-products" element={<ManageProducts />} />
           </Routes>
         </BrowserRouter>
       </CartProvider>
@@ -37,4 +39,3 @@ function App() {
 }
 
 export default App;
-  
