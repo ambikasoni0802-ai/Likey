@@ -44,6 +44,7 @@ export default function Navbar() {
             <Link to="/my-orders">My Orders</Link>
             {user.role === 'admin' && <Link to="/admin">Admin</Link>}
             {user.role === 'admin' && <Link to="/add-product">Add Product</Link>}
+            {user.role === 'admin' && <Link to="/manage-products">Manage Products</Link>}
             <button onClick={handleLogout}>Logout</button>
           </>
         ) : (
@@ -55,5 +56,5 @@ export default function Navbar() {
       </div>
     </div>
   );
-            }
-         
+          }
+             
